@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:context=".activity.dashboard.summary.page.JumlahPPFragment"
+        android:id="@+id/root_linear">
+
+        <com.github.mikephil.charting.charts.PieChart
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/piechart_spip"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/piechart_kapip"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+        <com.github.mikephil.charting.charts.PieChart
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/piechart_opini"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

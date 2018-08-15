@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">DashboardStrategis</string>
+
+    <!--Navivation Menu-->
+    <string name="nav_home">Dashboard</string>
+    <string name="nav_message">Pesan</string>
+    <string name="nav_notification">Notifikasi</string>
+    <string name="nav_person">Personal</string>
+    <string name="nav_keluar">Keluar</string>
+
+    <!--Page Summary-->
+    <string name="page_realisasi_pkpt">Realisasi PKPT</string>
+    <string name="page_jumlah_pp">Jumlah PP</string>
+    <string name="page_indikato_pemda">Indikator Pemda</string>
+    <string name="page_indikator_kl">Indikator KL</string>
+
+</resources>
